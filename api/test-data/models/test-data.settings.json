@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_data",
+  "info": {
+    "name": "testData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "one": {
+      "type": "string"
+    }
+  }
+}
