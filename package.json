@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/provider-upload-aws-s3": "^4.4.5",
     "knex": "0.21.18",
     "sqlite3": "5.0.0",
     "strapi": "3.6.8",
