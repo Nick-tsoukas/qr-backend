@@ -25,6 +25,12 @@
     },
     "name": {
       "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "social": {
+      "type": "json"
     }
   }
 }
