@@ -1,7 +1,3 @@
-var parse = require("pg-connection-string").parse;
-const { host, port, database, username, password } = parse(
-  process.env.DATABASE_URL
-);
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
